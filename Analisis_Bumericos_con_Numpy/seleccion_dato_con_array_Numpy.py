@@ -47,4 +47,4 @@ print(f"con listas:{a+b}") ## Devuelve: [2, 5, 7, 3, 4, 5]
 print(f"con numpy:")
 a_numpy = np.array([2,5,7])
 b_numpy = np.array([3,4,5])
-print(f"con numpy:{a_numpy + b_numpy}") ## Devuelve: [5 9 12]
+print(f"con num:{a_numpy + b_numpy}") ## Devuelve: [5 9 12]
