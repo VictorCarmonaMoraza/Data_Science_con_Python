@@ -6,7 +6,7 @@
 ## Instalacion de Numpy para Python: pip install numpy
 ## Importar Numpy: import numpy as np
 
-
+##Calculo elemento a elemento
 import numpy as np
 
 np_alt = np.array([1.7,1.65,1.82])
