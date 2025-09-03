@@ -1,0 +1,4 @@
+- La libreria Pandas esta construida sobre Numpy.
+- Pandas permite manipular gran cantidad de dadtos de fuentes heterogeneas(BigData)
+- Su elemento clave es el Dataframe
+- Cuando importemos la libreria pandas lo haremos como : import pandas as pandas
