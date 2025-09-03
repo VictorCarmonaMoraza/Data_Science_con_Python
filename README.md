@@ -13,6 +13,7 @@ en una distribución normal.
 
 
 # Crear el fichero de requirements.txt
+# El fichero requirements.txt no se actualiza automáticamente, hay que regenerarlo cada vez que instalas o desinstalas librerías.
 
 pip freeze > requirements.txt
 
