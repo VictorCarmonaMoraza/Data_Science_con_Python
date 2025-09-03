@@ -10,3 +10,12 @@ en una distribución normal.
 
 - x̄ = media
 - σ = desviación estándar
+
+
+# Crear el fichero de requirements.txt
+
+pip freeze > requirements.txt
+
+# Para ejecutar proyecto debemos ejecutar el comando
+
+pip install -r requirements.txt
