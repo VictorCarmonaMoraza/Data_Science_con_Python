@@ -1,0 +1,23 @@
+- Los ficheros csv tienen un delimitador que puede ser un (;) o (,). Cada (;) o(,) delimita cada 
+una de las columnas de nuestros datos.
+
+- Para importar un fichero CSV utilizaremos el metodo read.csv de pandas
+
+df = pd.read_csv(
+    filepath_or_buffer,   # Ruta o URL del archivo  -->Obligatorio
+    sep=",",              # Separador de columnas (por defecto coma)
+    header=0,             # Fila que se usa como cabecera (0 = primera fila)
+    names=None,           # Lista de nombres de columnas (si no hay cabecera)
+    index_col=None,       # Columna que se usará como índice del DataFrame
+    usecols=None,         # Columnas específicas a leer
+    dtype=None,           # Tipos de datos para columnas
+    skiprows=None,        # Filas a saltar
+    nrows=None,           # Número de filas a leer
+    encoding="utf-8"      # Codificación (utf-8, latin1, ISO-8859-1, etc.) -->Obligatorio
+)
+
+En pd.read_csv() puedes usar sep o delimiter:
+- sep=",",              # Separador de columnas (por defecto coma)
+- delimiter=",",        # Separador de columnas (por defecto coma)
+
+Para ficheros de texto plano, como ficheros .txt el delimiter debera ser un espacio vacio => delimiter=" "
