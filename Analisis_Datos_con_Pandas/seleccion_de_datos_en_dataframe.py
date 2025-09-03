@@ -1,5 +1,4 @@
 ## Selección de datos en un DataFrame
-
 ## LOC (Basada en etiquetas)
 ## ILOC (Basada en posiciones)
 
@@ -27,7 +26,6 @@ df_nombre = df.loc[:,["Ciudad"]]
 
 ##print(df)
 print(df_nombre)
-
 
 ## ILOC:Devuelve de la columna 0 (Edad) las filas 1 y 2 (Luis y Marta)
 print(df.iloc[1:3, [0]])
