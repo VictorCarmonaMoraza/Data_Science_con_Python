@@ -1,0 +1,1 @@
+La interpolacion de datos es la obtencion de un nuevo valor a partir de un conjunto de datos.
